@@ -19,3 +19,6 @@ to run do:
 cd ratata
 
 python ratata_v2.py
+
+
+ALSO included a UEFI injection debug scanner. Injects a NOP sled + overflow + INT3 trap (for debug). Shows up if the maxheaders go above 256-bit and cause a header buffer overflow.
