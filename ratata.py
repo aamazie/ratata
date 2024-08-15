@@ -9,7 +9,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 # Predefined list of RHOSTS
 RHOSTS = [
-    ""
+    "13.89.113.79"
 ]
 
 external_payloads = []
