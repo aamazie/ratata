@@ -7,8 +7,11 @@ ratata_v2 (the version 2) is what you want . the first iteration it does is a st
 i call it the ratata polyglot and it's only available in ratata 2.0.
 
 to install do:
+
 git clone https://github.com/aamazie/ratata/
 
 to run do:
+
 cd ratata
+
 python ratata_v2.py
