@@ -6,6 +6,10 @@ Ratata takes in an IP, an Ipv4, which you can modify in the list in the python f
 ratata_v2 (the version 2) is what you want . the first iteration it does is a standard, well-tested well-battled polyglot that works on a lot of stuff...
 i call it the ratata polyglot and it's only available in ratata 2.0.
 
+ratata_v3 is even better though.. it uses a recursive ai to add to the ratata polyglot in 2.0. each iteration builds upon the ratata polyglot to achieve an execution.
+
+ratata 1.0 is pure UEFI rando algo stuff.. try to get something new.
+
 to install do:
 
 git clone https://github.com/aamazie/ratata/
