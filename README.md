@@ -27,3 +27,5 @@ ALSO included a UEFI injection debug scanner. Injects a NOP sled + overflow + IN
 DISCLAIMER: the developers claim no responsibility or liability for the public misuse of this debugger, their property.
 
 Don't run raticate.
+
+Additional debug you can use metasploit and search for the http/ws_dos scan and use that to see if you might find a buffer overflow from nodejs header dos packet.
