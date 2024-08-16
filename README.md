@@ -25,3 +25,5 @@ ALSO included a UEFI injection debug scanner. Injects a NOP sled + overflow + IN
 
 
 DISCLAIMER: the developers claim no responsibility or liability for the public misuse of this debugger, their property.
+
+Don't run raticate.
