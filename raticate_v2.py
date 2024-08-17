@@ -1,4 +1,5 @@
 #raticate v2
+#v1 took ip4s, v2 takes domains
 import socket
 import struct
 
