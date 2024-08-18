@@ -23,8 +23,8 @@ python ratata_v2.py
 
 ALSO included a UEFI injection debug scanner. Injects a NOP sled + overflow + INT3 trap (for debug). Shows up if the maxheaders go above 256-bit and cause a header buffer overflow.
 
+Raticate is the utilmate utility in finding UEFI overflows.. it parses through many shellcode payloads and injects a RAT debug. It hacks everything with a NOP Shed Overflow.
+
 
 DISCLAIMER: the developers claim no responsibility or liability for the public misuse of this debugger, their property.
-
-Don't run raticate.
 
