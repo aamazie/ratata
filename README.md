@@ -8,7 +8,7 @@ i call it the ratata polyglot and it's now available in ratata 2.0.
 
 ratata_v3 is even better though.. it uses a recursive ai to add to the ratata polyglot in 2.0. each iteration builds upon the ratata polyglot to achieve an execution.
 
-ratata 1.0 is pure UEFI rando algo stuff.. try to get something new.
+ratata 1.0 is pure UEFI rando algo stuff.. try to get something new. ratata injects on headers.
 
 to install do:
 
