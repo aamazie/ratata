@@ -25,7 +25,6 @@ ALSO included a UEFI injection debug scanner. Injects a NOP sled + overflow + IN
 
 Raticate is the utilmate utility in finding UEFI overflows.. it parses through many shellcode payloads and injects a RAT debug. It hacks everything with a NOP Shed Overflow.
 
+Pikachu is some kind of another bug ai scanner that's like a combination of raticate v2.0 and ratata v3.0 to find RAT injections. Asks for iteration count and you can put multiple IPs into the list in the python.
 
 DISCLAIMER: the developers claim no responsibility or liability for the public misuse of this debugger, their property.
-
-Pikachu is some kind of another bug ai scanner that's like a combination of raticate v2.0 and ratata v3.0 to find RAT injections. Asks for iteration count and you can put multiple IPs into the list in the python.
