@@ -27,4 +27,6 @@ Raticate is the utilmate utility in finding UEFI overflows.. it parses through m
 
 Pikachu is some kind of another bug ai scanner that's like a combination of raticate v2.0 and ratata v3.0 to find RAT injections. Asks for iteration count and you can put multiple IPs into the list in the python.
 
+Raichu is an update to the extremely verbose and effective Raticate_V2 that should work for more domains.
+
 DISCLAIMER: the developers claim no responsibility or liability for the public misuse of this debugger, their property.
