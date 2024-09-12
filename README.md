@@ -31,7 +31,7 @@ Raichu is an update to the extremely verbose and effective Raticate_V2 that shou
 
 
 
-Pigeon.py has a different shellcode execution to Raticate_V2.. it shows a wget payload is possbile to execute through a buffer overflow:
+Pigeon.py has a different shellcode execution to Raticate_V2.. it shows a wget payload is possbile to execute through arbtrary shellcode executionw:
 
 1. Push /bin/sh onto the stack:
 The shellcode first prepares the /bin/sh command so that when execve is called, it can invoke the shell. This is important because we need a shell environment to execute wget.
